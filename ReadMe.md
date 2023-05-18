@@ -9,6 +9,6 @@ Sometimes, you just want your tokens to be tidly arranged on your map. This modu
 
 ## Support
 
-I appreciate any feedback and questions. You can reach me on [GitHub](https://github.com/mrkwnzl/disable-mouse-wheel-sliders-foundryvtt) and Discord (@mrkwnzl#7407). If Gridless Grid for Foundry VTT makes your games more accessible and fun, I’m grateful for your support:
+I appreciate any feedback and questions. You can reach me on [GitHub](https://github.com/mrkwnzl/gridless-grid-foundryvtt) and Discord (@mrkwnzl#7407). If Gridless Grid for Foundry VTT makes your games more accessible and fun, I’m grateful for your support:
 
 <a href="https://www.buymeacoffee.com/mrkwnzl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="40"></a>
