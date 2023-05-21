@@ -2,13 +2,13 @@
   "id": "gridless-grid",
   "title": "Gridless Grid",
   "description": "Enables snap-to-grid on gridless maps when holding shift",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "esmodules": [
     "/gridless-grid.js"
   ],
   "url": "https://github.com/mrkwnzl/gridless-grid-foundryvtt",
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/gridless-grid-foundryvtt/main/module.json",
-  "download": "https://github.com/mrkwnzl/gridless-grid-foundryvtt/releases/download/v1.0.0/release.zip",
+  "download": "https://github.com/mrkwnzl/gridless-grid-foundryvtt/releases/download/v1.1.0/release.zip",
   "authors": [
     {
       "name": "Marko Wenzel",
