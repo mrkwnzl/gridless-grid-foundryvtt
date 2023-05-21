@@ -6,7 +6,7 @@ Hooks.on("init", () => {
     editable: [
       {
         key: "KeyS",
-        modifiers: [CONTROL]
+        modifiers: [CONTROL, SHIFT]
       }
     ],
     onDown: stackTokens,
@@ -18,7 +18,7 @@ Hooks.on("init", () => {
     editable: [
       {
         key: "KeyD",
-        modifiers: [CONTROL]
+        modifiers: [CONTROL, SHIFT]
       }
     ],
     onDown: disperseTokens,
@@ -32,7 +32,7 @@ Hooks.on("preUpdateToken", (token, changes) => {
 
   const gridSize = token.parent.dimensions.size;
 
-  if (game.keyboard.isModifierActive("Shift")) {
+  if (game.keyboard.isModifierActive("Shift") && !game.keyboard.isModifierActive("Control")) {
     if (changes.x) changes.x = Math.round(changes.x / gridSize) * gridSize;
     if (changes.y) changes.y = Math.round(changes.y / gridSize) * gridSize;
   }
