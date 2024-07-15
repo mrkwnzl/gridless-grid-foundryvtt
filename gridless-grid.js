@@ -1,5 +1,4 @@
 let snapToGrid = false;
-let otherFunction = false;
 
 Hooks.on("init", () => {
   // Register keybindings
@@ -128,8 +127,8 @@ async function fanTokens() {
 
 function getAverageCoordinates(tokens) {
   if (!tokens) return;
-  let arrayX = [];
-  let arrayY = [];
+  const arrayX = [];
+  const arrayY = [];
   const gridSize = tokens[0].document.parent.dimensions.size;
 
   for (let token of tokens) {
